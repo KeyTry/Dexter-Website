@@ -1,0 +1,93 @@
+// import settings :
+@import 'settings';
+@import 'fontFace';
+@import 'mixins';
+@include fontFace( 'Asap-Regular','asap-regular-webfont');
+$header-bg: #00a3e4;
+
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+header {
+    @include texts;
+    @include gridle_grid ( 12 );
+    background-color: $header-bg;
+    padding: 20px 0;
+    background-image: url("../img/headerbg.png");
+    background-repeat: no-repeat;
+    padding-bottom: 64px;
+}
+
+button {
+    border: 0;
+    border-radius: 4px;
+    height: 48px;
+    width: 160px;
+    padding: 12px;
+    background-color: #49b9e6;
+    font-family: 'Asap-Regular';
+    font-size: 16px;
+    color: #ffffff;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+#title {
+    margin-bottom: 64px;
+}
+
+#icons-box {
+    background-color: #0084b8;
+    @include texts;
+
+    div {
+        text-align: center;
+        margin-bottom: 24px;
+
+        h1 {
+            margin-bottom: 6px;
+            margin-top: 12px;
+        }
+    }
+}
+
+#lonely-ginger {
+    @include texts-alt;
+}
+
+.testimonial {
+    background-color: #ecf0f1;
+    border-radius: 9px;
+    padding: 24px;
+}
+
+#lonely-ginger .testimonial::after {
+    content: url("../img/mandark1.png");
+    position: absolute;
+    right: 56px;
+    bottom: 12px;
+}
+
+#fighting {
+    @include texts-alt;
+}
+
+#characters {
+    background-color: #ecf0f1;
+    padding: 64px 0;
+    text-align: center;
+}
+
+.generic-box {
+    padding-top: 48px;
+    padding-bottom: 48px;
+
+    div {
+        text-align: center;
+    }
+}

@@ -1,0 +1,16 @@
+{
+  "name": "dexter",
+  "version": "1.0.0",
+  "description": "dexter website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "dexter",
+    "website",
+    "project"
+  ],
+  "author": "Daniel Somarribas",
+  "license": "ISC"
+}

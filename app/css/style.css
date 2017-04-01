@@ -1,0 +1,253 @@
+@font-face {
+  font-family: "Asap-BoldItalic";
+  src: url("../fonts/Asap/asap-bolditalic-webfont.eot");
+  src: url("../fonts/Asap/asap-bolditalic-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/Asap/asap-bolditalic-webfont.woff") format("woff"), url("../fonts/Asap/asap-bolditalic-webfont.woff2") format("woff2"), url("../fonts/Asap/asap-bolditalic-webfont.ttf") format("truetype"), url("../fonts/Asap/asap-bolditalic-webfont.svg#Asap-BoldItalic") format("svg");
+  font-style: normal;
+  font-weight: normal; }
+
+@font-face {
+  font-family: "Asap-Bold";
+  src: url("../fonts/Asap/asap-bold-webfont.eot");
+  src: url("../fonts/Asap/asap-bold-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/Asap/asap-bold-webfont.woff") format("woff"), url("../fonts/Asap/asap-bold-webfont.woff2") format("woff2"), url("../fonts/Asap/asap-bold-webfont.ttf") format("truetype"), url("../fonts/Asap/asap-bold-webfont.svg#Asap-Bold") format("svg");
+  font-style: normal;
+  font-weight: normal; }
+
+@font-face {
+  font-family: "Asap-Medium";
+  src: url("../fonts/Asap/asap-medium-webfont.eot");
+  src: url("../fonts/Asap/asap-medium-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/Asap/asap-medium-webfont.woff") format("woff"), url("../fonts/Asap/asap-medium-webfont.woff2") format("woff2"), url("../fonts/Asap/asap-medium-webfont.ttf") format("truetype"), url("../fonts/Asap/asap-medium-webfont.svg#Asap-Medium") format("svg");
+  font-style: normal;
+  font-weight: normal; }
+
+@font-face {
+  font-family: "Asap-MediumItalic";
+  src: url("../fonts/Asap/asap-mediumitalic-webfont.eot");
+  src: url("../fonts/Asap/asap-mediumitalic-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/Asap/asap-mediumitalic-webfont.woff") format("woff"), url("../fonts/Asap/asap-mediumitalic-webfont.woff2") format("woff2"), url("../fonts/Asap/asap-mediumitalic-webfont.ttf") format("truetype"), url("../fonts/Asap/asap-mediumitalic-webfont.svg#Asap-MediumItalic") format("svg");
+  font-style: normal;
+  font-weight: normal; }
+
+@font-face {
+  font-family: "Asap-Regular";
+  src: url("../fonts/Asap/asap-regular-webfont.eot");
+  src: url("../fonts/Asap/asap-regular-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/Asap/asap-regular-webfont.woff") format("woff"), url("../fonts/Asap/asap-regular-webfont.woff2") format("woff2"), url("../fonts/Asap/asap-regular-webfont.ttf") format("truetype"), url("../fonts/Asap/asap-regular-webfont.svg#Asap-Regular") format("svg");
+  font-style: normal;
+  font-weight: normal; }
+
+@font-face {
+  font-family: "Asap-Italic";
+  src: url("../fonts/Asap/asap-italic-webfont.eot");
+  src: url("../fonts/Asap/asap-italic-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/Asap/asap-italic-webfont.woff") format("woff"), url("../fonts/Asap/asap-italic-webfont.woff2") format("woff2"), url("../fonts/Asap/asap-italic-webfont.ttf") format("truetype"), url("../fonts/Asap/asap-italic-webfont.svg#Asap-Italic") format("svg");
+  font-style: normal;
+  font-weight: normal; }
+
+@font-face {
+  font-family: "Asap-Regular";
+  src: url("../fonts/Asap/asap-regular-webfont.eot");
+  src: url("../fonts/Asap/asap-regular-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/Asap/asap-regular-webfont.woff") format("woff"), url("../fonts/Asap/asap-regular-webfont.woff2") format("woff2"), url("../fonts/Asap/asap-regular-webfont.ttf") format("truetype"), url("../fonts/Asap/asap-regular-webfont.svg#Asap-Regular") format("svg");
+  font-style: normal;
+  font-weight: normal; }
+
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden; }
+
+header {
+  width: 100%;
+  background-color: #00a3e4;
+  padding: 20px 0;
+  background-image: url("../img/headerbg.png");
+  background-repeat: no-repeat;
+  padding-bottom: 64px; }
+  header h1,
+  header h2,
+  header h3,
+  header h4,
+  header h5,
+  header h6 {
+    margin: 0; }
+  header h1 {
+    font-family: 'Asap-Bold';
+    font-size: 48px;
+    color: #ffffff;
+    margin-bottom: 36px; }
+  header h3 {
+    font-family: 'Asap-BoldItalic';
+    font-size: 22px;
+    color: #ffffff; }
+  header h5 {
+    font-family: 'Asap-Regular';
+    font-size: 16px;
+    color: #ffffff;
+    margin-bottom: 36px; }
+  header h6 {
+    font-family: 'Asap-Regular';
+    font-size: 14px;
+    color: #ffffff; }
+  header {
+    display: inline-block;
+    min-height: 1px;
+    float: left;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    vertical-align: top;
+    padding-right: 10px;
+    padding-left: 10px; }
+
+button {
+  border: 0;
+  border-radius: 4px;
+  height: 48px;
+  width: 160px;
+  padding: 12px;
+  background-color: #49b9e6;
+  font-family: 'Asap-Regular';
+  font-size: 16px;
+  color: #ffffff; }
+
+button:hover {
+  cursor: pointer; }
+
+#title {
+  margin-bottom: 64px; }
+
+#icons-box {
+  background-color: #0084b8; }
+  #icons-box h1,
+  #icons-box h2,
+  #icons-box h3,
+  #icons-box h4,
+  #icons-box h5,
+  #icons-box h6 {
+    margin: 0; }
+  #icons-box h1 {
+    font-family: 'Asap-Bold';
+    font-size: 48px;
+    color: #ffffff;
+    margin-bottom: 36px; }
+  #icons-box h3 {
+    font-family: 'Asap-BoldItalic';
+    font-size: 22px;
+    color: #ffffff; }
+  #icons-box h5 {
+    font-family: 'Asap-Regular';
+    font-size: 16px;
+    color: #ffffff;
+    margin-bottom: 36px; }
+  #icons-box h6 {
+    font-family: 'Asap-Regular';
+    font-size: 14px;
+    color: #ffffff; }
+  #icons-box div {
+    text-align: center;
+    margin-bottom: 24px; }
+    #icons-box div h1 {
+      margin-bottom: 6px;
+      margin-top: 12px; }
+
+#lonely-ginger h1,
+#lonely-ginger h2,
+#lonely-ginger h3,
+#lonely-ginger h4,
+#lonely-ginger h5,
+#lonely-ginger h6 {
+  margin: 0; }
+
+#lonely-ginger h1 {
+  font-family: 'Asap-Bold';
+  font-size: 48px;
+  color: #000000;
+  margin-bottom: 12px; }
+
+#lonely-ginger h3 {
+  font-family: 'Asap-BoldItalic';
+  font-size: 22px;
+  color: #000000; }
+
+#lonely-ginger h4 {
+  color: #00a3e4;
+  font-family: 'Asap-Regular';
+  font-size: 14px;
+  margin-bottom: 24px;
+  margin-top: 24px;
+  line-height: 24px;
+  margin-left: 24px; }
+
+#lonely-ginger h5 {
+  font-family: 'Asap-Regular';
+  font-size: 14px;
+  color: #000000;
+  margin-bottom: 24px;
+  margin-top: 24px;
+  line-height: 24px; }
+
+#lonely-ginger h6 {
+  font-family: 'Asap-Italic';
+  font-size: 14px;
+  color: #5e6060;
+  line-height: 24px; }
+
+.testimonial {
+  background-color: #ecf0f1;
+  border-radius: 9px;
+  padding: 24px; }
+
+#lonely-ginger .testimonial::after {
+  content: url("../img/mandark1.png");
+  position: absolute;
+  right: 56px;
+  bottom: 12px; }
+
+#fighting h1,
+#fighting h2,
+#fighting h3,
+#fighting h4,
+#fighting h5,
+#fighting h6 {
+  margin: 0; }
+
+#fighting h1 {
+  font-family: 'Asap-Bold';
+  font-size: 48px;
+  color: #000000;
+  margin-bottom: 12px; }
+
+#fighting h3 {
+  font-family: 'Asap-BoldItalic';
+  font-size: 22px;
+  color: #000000; }
+
+#fighting h4 {
+  color: #00a3e4;
+  font-family: 'Asap-Regular';
+  font-size: 14px;
+  margin-bottom: 24px;
+  margin-top: 24px;
+  line-height: 24px;
+  margin-left: 24px; }
+
+#fighting h5 {
+  font-family: 'Asap-Regular';
+  font-size: 14px;
+  color: #000000;
+  margin-bottom: 24px;
+  margin-top: 24px;
+  line-height: 24px; }
+
+#fighting h6 {
+  font-family: 'Asap-Italic';
+  font-size: 14px;
+  color: #5e6060;
+  line-height: 24px; }
+
+#characters {
+  background-color: #ecf0f1;
+  padding: 64px 0;
+  text-align: center; }
+
+.generic-box {
+  padding-top: 48px;
+  padding-bottom: 48px; }
+  .generic-box div {
+    text-align: center; }
