@@ -6,31 +6,33 @@
 $header-bg: #00a3e4;
 
 body {
-    margin: 0;
-    padding: 0;
+    margin    : 0;
+    padding   : 0;
     overflow-x: hidden;
 }
 
 header {
     @include texts;
     @include gridle_grid ( 12 );
-    background-color: $header-bg;
-    padding: 20px 0;
-    background-image: url("../img/headerbg.png");
-    background-repeat: no-repeat;
-    padding-bottom: 64px;
+    background-color   : $header-bg;
+    padding            : 20px 0;
+    background-image   : url("../img/headerbg.png");
+    background-repeat  : no-repeat;
+    background-position: center;
+    padding-bottom     : 64px;
+    background-repeat  : repeat;
 }
 
 button {
-    border: 0;
-    border-radius: 4px;
-    height: 48px;
-    width: 160px;
-    padding: 12px;
+    border          : 0;
+    border-radius   : 4px;
+    height          : 48px;
+    width           : 160px;
+    padding         : 12px;
     background-color: #49b9e6;
-    font-family: 'Asap-Regular';
-    font-size: 16px;
-    color: #ffffff;
+    font-family     : 'Asap-Regular';
+    font-size       : 16px;
+    color           : #ffffff;
 }
 
 button:hover {
@@ -46,48 +48,154 @@ button:hover {
     @include texts;
 
     div {
-        text-align: center;
+        text-align   : center;
         margin-bottom: 24px;
 
         h1 {
             margin-bottom: 6px;
-            margin-top: 12px;
+            margin-top   : 12px;
         }
     }
 }
 
 #lonely-ginger {
     @include texts-alt;
+
+    img {
+        text-align: center;
+    }
 }
 
 .testimonial {
     background-color: #ecf0f1;
-    border-radius: 9px;
-    padding: 24px;
+    border-radius   : 9px;
+    padding         : 24px;
+    position        : relative;
 }
 
-#lonely-ginger .testimonial::after {
-    content: url("../img/mandark1.png");
-    position: absolute;
-    right: 56px;
-    bottom: 12px;
+.testimonial::after {
+    content      : url("../img/mandark1.png");
+    position     : absolute;
+    right        : -92px;
+    bottom       : -144px;
+    border-radius: 64px;
 }
 
 #fighting {
     @include texts-alt;
+
+    img {
+        margin-top: 24px;
+        text-align: center;
+    }
 }
 
 #characters {
     background-color: #ecf0f1;
-    padding: 64px 0;
-    text-align: center;
-}
-
-.generic-box {
-    padding-top: 48px;
-    padding-bottom: 48px;
+    padding         : 64px 0;
 
     div {
         text-align: center;
     }
+
+    img {
+        display     : block;
+        margin-left : auto;
+        margin-right: auto;
+    }
+
+    h2 {
+        font-family  : 'Asap-Medium';
+        font-size    : 36px;
+        color        : #000000;
+        margin-bottom: 8px;
+    }
+
+    h3 {
+        font-family  : 'Asap-Italic';
+        font-size    : 24px;
+        color        : #929697;
+        margin-bottom: 48px;
+        margin-top   : 0;
+    }
+
+    h4 {
+        font-family  : 'Asap-Regular';
+        font-size    : 20px;
+        color        : #ABAFB0;
+        margin-bottom: 24px;
+        margin-top   : 0;
+    }
+
+    a {
+        font-family    : 'Asap-Regular';
+        font-size      : 18px;
+        color          : #2B92C7;
+        margin-bottom  : 0;
+        margin-top     : 0;
+        text-decoration: none;
+    }
+}
+
+#rude {
+    background-color: #F1C40F;
+    color           : #ffffff;
+
+    h2 {
+        font-size  : 36px;
+        font-family: 'Asap-Bold';
+    }
+}
+
+#info {
+    background-color: #D9AF0D;
+
+    div {
+        position: relative;
+    }
+
+    h4 {
+        font-family: 'Asap-Medium';
+        font-size  : 20px;
+        color      : #ffffff;
+    }
+
+    h5 {
+        font-family  : 'Asap-Regular';
+        font-size    : 16px;
+        color        : #ffffff;
+        margin-top   : 9px;
+        margin-bottom: 9px;
+        line-height  : 28px;
+    }
+}
+
+.mail-box::before {
+    content : url('../img/mail.png');
+    position: absolute;
+    left    : -56px;
+    top     : 32px;
+}
+
+.location-box::before {
+    content : url('../img/location.png');
+    position: absolute;
+    left    : -56px;
+    top     : 32px;
+}
+
+.skype-box::before {
+    content : url('../img/skype.png');
+    position: absolute;
+    left    : -56px;
+    top     : 32px;
+}
+
+.generic-box {
+    padding-top   : 48px;
+    padding-bottom: 48px;
+}
+
+.character {
+    margin-bottom: 24px;
 }

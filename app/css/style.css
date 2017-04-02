@@ -58,7 +58,9 @@ header {
   padding: 20px 0;
   background-image: url("../img/headerbg.png");
   background-repeat: no-repeat;
-  padding-bottom: 64px; }
+  background-position: center;
+  padding-bottom: 64px;
+  background-repeat: repeat; }
   header h1,
   header h2,
   header h3,
@@ -188,16 +190,21 @@ button:hover {
   color: #5e6060;
   line-height: 24px; }
 
+#lonely-ginger img {
+  text-align: center; }
+
 .testimonial {
   background-color: #ecf0f1;
   border-radius: 9px;
-  padding: 24px; }
+  padding: 24px;
+  position: relative; }
 
-#lonely-ginger .testimonial::after {
+.testimonial::after {
   content: url("../img/mandark1.png");
   position: absolute;
-  right: 56px;
-  bottom: 12px; }
+  right: -92px;
+  bottom: -144px;
+  border-radius: 64px; }
 
 #fighting h1,
 #fighting h2,
@@ -241,13 +248,88 @@ button:hover {
   color: #5e6060;
   line-height: 24px; }
 
+#fighting img {
+  margin-top: 24px;
+  text-align: center; }
+
 #characters {
   background-color: #ecf0f1;
-  padding: 64px 0;
-  text-align: center; }
+  padding: 64px 0; }
+  #characters div {
+    text-align: center; }
+  #characters img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto; }
+  #characters h2 {
+    font-family: 'Asap-Medium';
+    font-size: 36px;
+    color: #000000;
+    margin-bottom: 8px; }
+  #characters h3 {
+    font-family: 'Asap-Italic';
+    font-size: 24px;
+    color: #929697;
+    margin-bottom: 48px;
+    margin-top: 0; }
+  #characters h4 {
+    font-family: 'Asap-Regular';
+    font-size: 20px;
+    color: #ABAFB0;
+    margin-bottom: 24px;
+    margin-top: 0; }
+  #characters a {
+    font-family: 'Asap-Regular';
+    font-size: 18px;
+    color: #2B92C7;
+    margin-bottom: 0;
+    margin-top: 0;
+    text-decoration: none; }
+
+#rude {
+  background-color: #F1C40F;
+  color: #ffffff; }
+  #rude h2 {
+    font-size: 36px;
+    font-family: 'Asap-Bold'; }
+
+#info {
+  background-color: #D9AF0D; }
+  #info div {
+    position: relative; }
+  #info h4 {
+    font-family: 'Asap-Medium';
+    font-size: 20px;
+    color: #ffffff; }
+  #info h5 {
+    font-family: 'Asap-Regular';
+    font-size: 16px;
+    color: #ffffff;
+    margin-top: 9px;
+    margin-bottom: 9px;
+    line-height: 28px; }
+
+.mail-box::before {
+  content: url("../img/mail.png");
+  position: absolute;
+  left: -56px;
+  top: 32px; }
+
+.location-box::before {
+  content: url("../img/location.png");
+  position: absolute;
+  left: -56px;
+  top: 32px; }
+
+.skype-box::before {
+  content: url("../img/skype.png");
+  position: absolute;
+  left: -56px;
+  top: 32px; }
 
 .generic-box {
   padding-top: 48px;
   padding-bottom: 48px; }
-  .generic-box div {
-    text-align: center; }
+
+.character {
+  margin-bottom: 24px; }
